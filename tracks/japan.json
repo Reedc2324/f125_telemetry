@@ -1,0 +1,132 @@
+{
+    "track": "suzuka",
+    "track_length": 5807,
+    "corners": [
+      {
+        "name": "T1",
+        "number": 1,
+        "start": 606,
+        "apex": 686,
+        "end": 766
+      },
+      {
+        "name": "T2",
+        "number": 2,
+        "start": 748,
+        "apex": 828,
+        "end": 908
+      },
+      {
+        "name": "T3",
+        "number": 3,
+        "start": 1015,
+        "apex": 1095,
+        "end": 1175
+      },
+      {
+        "name": "T4",
+        "number": 4,
+        "start": 1157,
+        "apex": 1237,
+        "end": 1317
+      },
+      {
+        "name": "T5",
+        "number": 5,
+        "start": 1299,
+        "apex": 1379,
+        "end": 1459
+      },
+      {
+        "name": "T6",
+        "number": 6,
+        "start": 1470,
+        "apex": 1550,
+        "end": 1630
+      },
+      {
+        "name": "T7",
+        "number": 7,
+        "start": 1791,
+        "apex": 1871,
+        "end": 1951
+      },
+      {
+        "name": "T8",
+        "number": 8,
+        "start": 2162,
+        "apex": 2242,
+        "end": 2322
+      },
+      {
+        "name": "T9",
+        "number": 9,
+        "start": 2366,
+        "apex": 2446,
+        "end": 2526
+      },
+      {
+        "name": "T10",
+        "number": 10,
+        "start": 2673,
+        "apex": 2753,
+        "end": 2833
+      },
+      {
+        "name": "T11",
+        "number": 11,
+        "start": 2816,
+        "apex": 2896,
+        "end": 2976
+      },
+      {
+        "name": "T12",
+        "number": 12,
+        "start": 3049,
+        "apex": 3129,
+        "end": 3209
+      },
+      {
+        "name": "T13",
+        "number": 13,
+        "start": 3733,
+        "apex": 3813,
+        "end": 3893
+      },
+      {
+        "name": "T14",
+        "number": 14,
+        "start": 3825,
+        "apex": 3905,
+        "end": 3985
+      },
+      {
+        "name": "T15",
+        "number": 15,
+        "start": 4898,
+        "apex": 4978,
+        "end": 5058
+      },
+      {
+        "name": "T16",
+        "number": 16,
+        "start": 5267,
+        "apex": 5347,
+        "end": 5427
+      },
+      {
+        "name": "T17",
+        "number": 17,
+        "start": 5364,
+        "apex": 5444,
+        "end": 5524
+      },
+      {
+        "name": "T18",
+        "number": 18,
+        "start": 5500,
+        "apex": 5580,
+        "end": 5660
+      }
+    ]
+  } 

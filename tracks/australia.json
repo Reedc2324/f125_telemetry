@@ -1,0 +1,104 @@
+{
+    "track": "albert_park",
+    "track_length": 5278,
+    "corners": [
+      {
+        "name": "T1",
+        "number": 1,
+        "start": 271,
+        "apex": 351,
+        "end": 431
+      },
+      {
+        "name": "T2",
+        "number": 2,
+        "start": 353,
+        "apex": 433,
+        "end": 513
+      },
+      {
+        "name": "T3",
+        "number": 3,
+        "start": 988,
+        "apex": 1068,
+        "end": 1148
+      },
+      {
+        "name": "T4",
+        "number": 4,
+        "start": 1140,
+        "apex": 1220,
+        "end": 1300
+      },
+      {
+        "name": "T5",
+        "number": 5,
+        "start": 1339,
+        "apex": 1419,
+        "end": 1499
+      },
+      {
+        "name": "T6",
+        "number": 6,
+        "start": 1765,
+        "apex": 1845,
+        "end": 1925
+      },
+      {
+        "name": "T7",
+        "number": 7,
+        "start": 1877,
+        "apex": 1957,
+        "end": 2037
+      },
+      {
+        "name": "T8",
+        "number": 8,
+        "start": 2073,
+        "apex": 2153,
+        "end": 2233
+      },
+      {
+        "name": "T9",
+        "number": 9,
+        "start": 3184,
+        "apex": 3264,
+        "end": 3344
+      },
+      {
+        "name": "T10",
+        "number": 10,
+        "start": 3295,
+        "apex": 3375,
+        "end": 3455
+      },
+      {
+        "name": "T11",
+        "number": 11,
+        "start": 3996,
+        "apex": 4076,
+        "end": 4156
+      },
+      {
+        "name": "T12",
+        "number": 12,
+        "start": 4255,
+        "apex": 4335,
+        "end": 4415
+      },
+      {
+        "name": "T13",
+        "number": 13,
+        "start": 4504,
+        "apex": 4584,
+        "end": 4664
+      },
+      {
+        "name": "T14",
+        "number": 14,
+        "start": 4669,
+        "apex": 4749,
+        "end": 4829
+      }
+    ]
+  }

@@ -1,0 +1,118 @@
+{
+    "track": "shanghai_international_circuit",
+    "track_length": 5451,
+    "corners": [
+      {
+        "name": "T1",
+        "number": 1,
+        "start": 491,
+        "apex": 571,
+        "end": 651
+      },
+      {
+        "name": "T2",
+        "number": 2,
+        "start": 657,
+        "apex": 737,
+        "end": 817
+      },
+      {
+        "name": "T3",
+        "number": 3,
+        "start": 799,
+        "apex": 879,
+        "end": 959
+      },
+      {
+        "name": "T4",
+        "number": 4,
+        "start": 929,
+        "apex": 1009,
+        "end": 1089
+      },
+      {
+        "name": "T5",
+        "number": 5,
+        "start": 1223,
+        "apex": 1303,
+        "end": 1383
+      },
+      {
+        "name": "T6",
+        "number": 6,
+        "start": 1478,
+        "apex": 1558,
+        "end": 1638
+      },
+      {
+        "name": "T7",
+        "number": 7,
+        "start": 1951,
+        "apex": 2031,
+        "end": 2111
+      },
+      {
+        "name": "T8",
+        "number": 8,
+        "start": 2232,
+        "apex": 2312,
+        "end": 2392
+      },
+      {
+        "name": "T9",
+        "number": 9,
+        "start": 2418,
+        "apex": 2498,
+        "end": 2578
+      },
+      {
+        "name": "T10",
+        "number": 10,
+        "start": 2532,
+        "apex": 2612,
+        "end": 2692
+      },
+      {
+        "name": "T11",
+        "number": 11,
+        "start": 2993,
+        "apex": 3073,
+        "end": 3153
+      },
+      {
+        "name": "T12",
+        "number": 12,
+        "start": 3070,
+        "apex": 3150,
+        "end": 3230
+      },
+      {
+        "name": "T13",
+        "number": 13,
+        "start": 3266,
+        "apex": 3346,
+        "end": 3426
+      },
+      {
+        "name": "T14",
+        "number": 14,
+        "start": 4633,
+        "apex": 4713,
+        "end": 4793
+      },
+      {
+        "name": "T15",
+        "number": 15,
+        "start": 4710,
+        "apex": 4790,
+        "end": 4870
+      },
+      {
+        "name": "T16",
+        "number": 16,
+        "start": 5009,
+        "apex": 5089,
+        "end": 5169
+      }
+    ]
+  }

@@ -1,0 +1,76 @@
+{
+    "track": "red_bull_ring",
+    "track_length": 4318,
+    "corners": [
+      {
+        "name": "T1",
+        "number": 1,
+        "start": 353,
+        "apex": 433,
+        "end": 513
+      },
+      {
+        "name": "T2",
+        "number": 2,
+        "start": 990,
+        "apex": 1070,
+        "end": 1150
+      },
+      {
+        "name": "T3",
+        "number": 3,
+        "start": 1294,
+        "apex": 1374,
+        "end": 1454
+      },
+      {
+        "name": "T4",
+        "number": 4,
+        "start": 2105,
+        "apex": 2185,
+        "end": 2265
+      },
+      {
+        "name": "T5",
+        "number": 5,
+        "start": 2295,
+        "apex": 2375,
+        "end": 2455
+      },
+      {
+        "name": "T6",
+        "number": 6,
+        "start": 2627,
+        "apex": 2707,
+        "end": 2787
+      },
+      {
+        "name": "T7",
+        "number": 7,
+        "start": 2937,
+        "apex": 3017,
+        "end": 3097
+      },
+      {
+        "name": "T8",
+        "number": 8,
+        "start": 3149,
+        "apex": 3229,
+        "end": 3309
+      },
+      {
+        "name": "T9",
+        "number": 9,
+        "start": 3684,
+        "apex": 3764,
+        "end": 3844
+      },
+      {
+        "name": "T10",
+        "number": 10,
+        "start": 3872,
+        "apex": 3952,
+        "end": 4032
+      }
+    ]
+  }
