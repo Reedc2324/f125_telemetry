@@ -41,6 +41,8 @@ while True:
     packet_id = struct.unpack('<B', data[6:7])[0]
     player_index = struct.unpack('<B', data[27:28])[0]
 
+        
+
     
 
     # Car Telemetry Packet
@@ -103,6 +105,9 @@ while True:
                     
         
         last_lap = current_data['lap']
+    elif packet_id == 1:
+        current_data['track_id'] = struct.unpack('<b', data[HEADER_SIZE+24:HEADER_SIZE+25])[0]
+        print(current_data['track_id'])
         
         
 

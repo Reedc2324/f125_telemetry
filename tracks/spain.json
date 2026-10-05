@@ -1,0 +1,104 @@
+{
+  "track": "circuit_de_barcelona_catalunya",
+  "track_length": 4657,
+  "corners": [
+    {
+      "name": "T1",
+      "number": 1,
+      "start": 739,
+      "apex": 819,
+      "end": 899
+    },
+    {
+      "name": "T2",
+      "number": 2,
+      "start": 822,
+      "apex": 902,
+      "end": 982
+    },
+    {
+      "name": "T3",
+      "number": 3,
+      "start": 1075,
+      "apex": 1155,
+      "end": 1235
+    },
+    {
+      "name": "T4",
+      "number": 4,
+      "start": 1640,
+      "apex": 1720,
+      "end": 1800
+    },
+    {
+      "name": "T5",
+      "number": 5,
+      "start": 2086,
+      "apex": 2166,
+      "end": 2246
+    },
+    {
+      "name": "T6",
+      "number": 6,
+      "start": 2262,
+      "apex": 2342,
+      "end": 2422
+    },
+    {
+      "name": "T7",
+      "number": 7,
+      "start": 2440,
+      "apex": 2520,
+      "end": 2600
+    },
+    {
+      "name": "T8",
+      "number": 8,
+      "start": 2528,
+      "apex": 2608,
+      "end": 2688
+    },
+    {
+      "name": "T9",
+      "number": 9,
+      "start": 2790,
+      "apex": 2870,
+      "end": 2950
+    },
+    {
+      "name": "T10",
+      "number": 10,
+      "start": 3390,
+      "apex": 3470,
+      "end": 3550
+    },
+    {
+      "name": "T11",
+      "number": 11,
+      "start": 3529,
+      "apex": 3609,
+      "end": 3689
+    },
+    {
+      "name": "T12",
+      "number": 12,
+      "start": 3646,
+      "apex": 3726,
+      "end": 3806
+    },
+    {
+      "name": "T13",
+      "number": 13,
+      "start": 3921,
+      "apex": 4001,
+      "end": 4081
+    },
+    {
+      "name": "T14",
+      "number": 14,
+      "start": 4239,
+      "apex": 4319,
+      "end": 4399
+    }
+  ]
+}

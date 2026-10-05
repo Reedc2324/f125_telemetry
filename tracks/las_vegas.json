@@ -1,0 +1,125 @@
+{
+  "track": "las_vegas_strip_circuit",
+  "track_length": 6201,
+  "corners": [
+    {
+      "name": "T1",
+      "number": 1,
+      "start": 247,
+      "apex": 327,
+      "end": 407
+    },
+    {
+      "name": "T2",
+      "number": 2,
+      "start": 340,
+      "apex": 420,
+      "end": 500
+    },
+    {
+      "name": "T3",
+      "number": 3,
+      "start": 537,
+      "apex": 617,
+      "end": 697
+    },
+    {
+      "name": "T4",
+      "number": 4,
+      "start": 655,
+      "apex": 735,
+      "end": 815
+    },
+    {
+      "name": "T5",
+      "number": 5,
+      "start": 1506,
+      "apex": 1586,
+      "end": 1666
+    },
+    {
+      "name": "T6",
+      "number": 6,
+      "start": 1763,
+      "apex": 1843,
+      "end": 1923
+    },
+    {
+      "name": "T7",
+      "number": 7,
+      "start": 1989,
+      "apex": 2069,
+      "end": 2149
+    },
+    {
+      "name": "T8",
+      "number": 8,
+      "start": 2045,
+      "apex": 2125,
+      "end": 2205
+    },
+    {
+      "name": "T9",
+      "number": 9,
+      "start": 2169,
+      "apex": 2249,
+      "end": 2329
+    },
+    {
+      "name": "T10",
+      "number": 10,
+      "start": 2657,
+      "apex": 2737,
+      "end": 2817
+    },
+    {
+      "name": "T11",
+      "number": 11,
+      "start": 2908,
+      "apex": 2988,
+      "end": 3068
+    },
+    {
+      "name": "T12",
+      "number": 12,
+      "start": 3147,
+      "apex": 3227,
+      "end": 3307
+    },
+    {
+      "name": "T13",
+      "number": 13,
+      "start": 3917,
+      "apex": 3997,
+      "end": 4077
+    },
+    {
+      "name": "T14",
+      "number": 14,
+      "start": 5078,
+      "apex": 5158,
+      "end": 5238
+    },
+    {
+      "name": "T15",
+      "number": 15,
+      "start": 5140,
+      "apex": 5220,
+      "end": 5300
+    },
+    {
+      "name": "T16",
+      "number": 16,
+      "start": 5206,
+      "apex": 5286,
+      "end": 5366
+    },
+    {
+      "name": "T17",
+      "number": 17,
+      "start": 5943,
+      "apex": 6023,
+      "end": 6103
+    }
+  ]
+}

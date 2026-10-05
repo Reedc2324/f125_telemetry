@@ -1,0 +1,125 @@
+{
+  "track": "autodromo_hermanos_rodriguez",
+  "track_length": 4304,
+  "corners": [
+    {
+      "name": "T1",
+      "number": 1,
+      "start": 1112,
+      "apex": 1192,
+      "end": 1272
+    },
+    {
+      "name": "T2",
+      "number": 2,
+      "start": 1187,
+      "apex": 1267,
+      "end": 1347
+    },
+    {
+      "name": "T3",
+      "number": 3,
+      "start": 1248,
+      "apex": 1328,
+      "end": 1408
+    },
+    {
+      "name": "T4",
+      "number": 4,
+      "start": 1943,
+      "apex": 2023,
+      "end": 2103
+    },
+    {
+      "name": "T5",
+      "number": 5,
+      "start": 2007,
+      "apex": 2087,
+      "end": 2167
+    },
+    {
+      "name": "T6",
+      "number": 6,
+      "start": 2145,
+      "apex": 2225,
+      "end": 2305
+    },
+    {
+      "name": "T7",
+      "number": 7,
+      "start": 2481,
+      "apex": 2561,
+      "end": 2641
+    },
+    {
+      "name": "T8",
+      "number": 8,
+      "start": 2580,
+      "apex": 2660,
+      "end": 2740
+    },
+    {
+      "name": "T9",
+      "number": 9,
+      "start": 2692,
+      "apex": 2772,
+      "end": 2852
+    },
+    {
+      "name": "T10",
+      "number": 10,
+      "start": 2856,
+      "apex": 2936,
+      "end": 3016
+    },
+    {
+      "name": "T11",
+      "number": 11,
+      "start": 2960,
+      "apex": 3040,
+      "end": 3120
+    },
+    {
+      "name": "T12",
+      "number": 12,
+      "start": 3513,
+      "apex": 3593,
+      "end": 3673
+    },
+    {
+      "name": "T13",
+      "number": 13,
+      "start": 3683,
+      "apex": 3763,
+      "end": 3843
+    },
+    {
+      "name": "T14",
+      "number": 14,
+      "start": 3744,
+      "apex": 3824,
+      "end": 3904
+    },
+    {
+      "name": "T15",
+      "number": 15,
+      "start": 3799,
+      "apex": 3879,
+      "end": 3959
+    },
+    {
+      "name": "T16",
+      "number": 16,
+      "start": 3866,
+      "apex": 3946,
+      "end": 4026
+    },
+    {
+      "name": "T17",
+      "number": 17,
+      "start": 3995,
+      "apex": 4075,
+      "end": 4155
+    }
+  ]
+}

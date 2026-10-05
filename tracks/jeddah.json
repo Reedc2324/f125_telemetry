@@ -1,0 +1,195 @@
+{
+  "track": "jeddah_corniche_circuit",
+  "track_length": 6174,
+  "corners": [
+    {
+      "name": "T1",
+      "number": 1,
+      "start": 401,
+      "apex": 481,
+      "end": 561
+    },
+    {
+      "name": "T2",
+      "number": 2,
+      "start": 457,
+      "apex": 537,
+      "end": 617
+    },
+    {
+      "name": "T3",
+      "number": 3,
+      "start": 610,
+      "apex": 690,
+      "end": 770
+    },
+    {
+      "name": "T4",
+      "number": 4,
+      "start": 913,
+      "apex": 993,
+      "end": 1073
+    },
+    {
+      "name": "T5",
+      "number": 5,
+      "start": 1015,
+      "apex": 1095,
+      "end": 1175
+    },
+    {
+      "name": "T6",
+      "number": 6,
+      "start": 1162,
+      "apex": 1242,
+      "end": 1322
+    },
+    {
+      "name": "T7",
+      "number": 7,
+      "start": 1275,
+      "apex": 1355,
+      "end": 1435
+    },
+    {
+      "name": "T8",
+      "number": 8,
+      "start": 1344,
+      "apex": 1424,
+      "end": 1504
+    },
+    {
+      "name": "T9",
+      "number": 9,
+      "start": 1493,
+      "apex": 1573,
+      "end": 1653
+    },
+    {
+      "name": "T10",
+      "number": 10,
+      "start": 1608,
+      "apex": 1688,
+      "end": 1768
+    },
+    {
+      "name": "T11",
+      "number": 11,
+      "start": 1719,
+      "apex": 1799,
+      "end": 1879
+    },
+    {
+      "name": "T12",
+      "number": 12,
+      "start": 1815,
+      "apex": 1895,
+      "end": 1975
+    },
+    {
+      "name": "T13",
+      "number": 13,
+      "start": 2323,
+      "apex": 2403,
+      "end": 2483
+    },
+    {
+      "name": "T14",
+      "number": 14,
+      "start": 2651,
+      "apex": 2731,
+      "end": 2811
+    },
+    {
+      "name": "T15",
+      "number": 15,
+      "start": 2839,
+      "apex": 2919,
+      "end": 2999
+    },
+    {
+      "name": "T16",
+      "number": 16,
+      "start": 2978,
+      "apex": 3058,
+      "end": 3138
+    },
+    {
+      "name": "T17",
+      "number": 17,
+      "start": 3077,
+      "apex": 3157,
+      "end": 3237
+    },
+    {
+      "name": "T18",
+      "number": 18,
+      "start": 3304,
+      "apex": 3384,
+      "end": 3464
+    },
+    {
+      "name": "T19",
+      "number": 19,
+      "start": 3490,
+      "apex": 3570,
+      "end": 3650
+    },
+    {
+      "name": "T20",
+      "number": 20,
+      "start": 3719,
+      "apex": 3799,
+      "end": 3879
+    },
+    {
+      "name": "T21",
+      "number": 21,
+      "start": 3915,
+      "apex": 3995,
+      "end": 4075
+    },
+    {
+      "name": "T22",
+      "number": 22,
+      "start": 4154,
+      "apex": 4234,
+      "end": 4314
+    },
+    {
+      "name": "T23",
+      "number": 23,
+      "start": 4237,
+      "apex": 4317,
+      "end": 4397
+    },
+    {
+      "name": "T24",
+      "number": 24,
+      "start": 4391,
+      "apex": 4471,
+      "end": 4551
+    },
+    {
+      "name": "T25",
+      "number": 25,
+      "start": 4681,
+      "apex": 4761,
+      "end": 4841
+    },
+    {
+      "name": "T26",
+      "number": 26,
+      "start": 5036,
+      "apex": 5116,
+      "end": 5196
+    },
+    {
+      "name": "T27",
+      "number": 27,
+      "start": 5421,
+      "apex": 5501,
+      "end": 5581
+    }
+  ]
+}

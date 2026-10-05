@@ -1,0 +1,139 @@
+{
+  "track": "marina_bay_street_circuit",
+  "track_length": 4940,
+  "corners": [
+    {
+      "name": "T1",
+      "number": 1,
+      "start": 312,
+      "apex": 392,
+      "end": 472
+    },
+    {
+      "name": "T2",
+      "number": 2,
+      "start": 373,
+      "apex": 453,
+      "end": 533
+    },
+    {
+      "name": "T3",
+      "number": 3,
+      "start": 454,
+      "apex": 534,
+      "end": 614
+    },
+    {
+      "name": "T4",
+      "number": 4,
+      "start": 605,
+      "apex": 685,
+      "end": 765
+    },
+    {
+      "name": "T5",
+      "number": 5,
+      "start": 885,
+      "apex": 965,
+      "end": 1045
+    },
+    {
+      "name": "T6",
+      "number": 6,
+      "start": 1317,
+      "apex": 1397,
+      "end": 1477
+    },
+    {
+      "name": "T7",
+      "number": 7,
+      "start": 1679,
+      "apex": 1759,
+      "end": 1839
+    },
+    {
+      "name": "T8",
+      "number": 8,
+      "start": 1907,
+      "apex": 1987,
+      "end": 2067
+    },
+    {
+      "name": "T9",
+      "number": 9,
+      "start": 2101,
+      "apex": 2181,
+      "end": 2261
+    },
+    {
+      "name": "T10",
+      "number": 10,
+      "start": 2524,
+      "apex": 2604,
+      "end": 2684
+    },
+    {
+      "name": "T11",
+      "number": 11,
+      "start": 2681,
+      "apex": 2761,
+      "end": 2841
+    },
+    {
+      "name": "T12",
+      "number": 12,
+      "start": 2774,
+      "apex": 2854,
+      "end": 2934
+    },
+    {
+      "name": "T13",
+      "number": 13,
+      "start": 2945,
+      "apex": 3025,
+      "end": 3105
+    },
+    {
+      "name": "T14",
+      "number": 14,
+      "start": 3510,
+      "apex": 3590,
+      "end": 3670
+    },
+    {
+      "name": "T15",
+      "number": 15,
+      "start": 3733,
+      "apex": 3813,
+      "end": 3893
+    },
+    {
+      "name": "T16",
+      "number": 16,
+      "start": 4210,
+      "apex": 4290,
+      "end": 4370
+    },
+    {
+      "name": "T17",
+      "number": 17,
+      "start": 4278,
+      "apex": 4358,
+      "end": 4438
+    },
+    {
+      "name": "T18",
+      "number": 18,
+      "start": 4553,
+      "apex": 4633,
+      "end": 4713
+    },
+    {
+      "name": "T19",
+      "number": 19,
+      "start": 4677,
+      "apex": 4757,
+      "end": 4837
+    }
+  ]
+}

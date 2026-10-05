@@ -1,0 +1,139 @@
+{
+  "track": "miami_international_autodrome",
+  "track_length": 5412,
+  "corners": [
+    {
+      "name": "T1",
+      "number": 1,
+      "start": 290,
+      "apex": 370,
+      "end": 450
+    },
+    {
+      "name": "T2",
+      "number": 2,
+      "start": 392,
+      "apex": 472,
+      "end": 552
+    },
+    {
+      "name": "T3",
+      "number": 3,
+      "start": 487,
+      "apex": 567,
+      "end": 647
+    },
+    {
+      "name": "T4",
+      "number": 4,
+      "start": 1057,
+      "apex": 1137,
+      "end": 1217
+    },
+    {
+      "name": "T5",
+      "number": 5,
+      "start": 1175,
+      "apex": 1255,
+      "end": 1335
+    },
+    {
+      "name": "T6",
+      "number": 6,
+      "start": 1320,
+      "apex": 1400,
+      "end": 1480
+    },
+    {
+      "name": "T7",
+      "number": 7,
+      "start": 1463,
+      "apex": 1543,
+      "end": 1623
+    },
+    {
+      "name": "T8",
+      "number": 8,
+      "start": 1561,
+      "apex": 1641,
+      "end": 1721
+    },
+    {
+      "name": "T9",
+      "number": 9,
+      "start": 2092,
+      "apex": 2172,
+      "end": 2252
+    },
+    {
+      "name": "T10",
+      "number": 10,
+      "start": 2349,
+      "apex": 2429,
+      "end": 2509
+    },
+    {
+      "name": "T11",
+      "number": 11,
+      "start": 3007,
+      "apex": 3087,
+      "end": 3167
+    },
+    {
+      "name": "T12",
+      "number": 12,
+      "start": 3120,
+      "apex": 3200,
+      "end": 3280
+    },
+    {
+      "name": "T13",
+      "number": 13,
+      "start": 3247,
+      "apex": 3327,
+      "end": 3407
+    },
+    {
+      "name": "T14",
+      "number": 14,
+      "start": 3327,
+      "apex": 3407,
+      "end": 3487
+    },
+    {
+      "name": "T15",
+      "number": 15,
+      "start": 3342,
+      "apex": 3422,
+      "end": 3502
+    },
+    {
+      "name": "T16",
+      "number": 16,
+      "start": 3440,
+      "apex": 3520,
+      "end": 3600
+    },
+    {
+      "name": "T17",
+      "number": 17,
+      "start": 4750,
+      "apex": 4830,
+      "end": 4910
+    },
+    {
+      "name": "T18",
+      "number": 18,
+      "start": 4896,
+      "apex": 4976,
+      "end": 5056
+    },
+    {
+      "name": "T19",
+      "number": 19,
+      "start": 5100,
+      "apex": 5180,
+      "end": 5260
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "track": "zandvoort",
+  "track_length": 4259,
+  "corners": [
+    {
+      "name": "T1",
+      "number": 1,
+      "start": 263,
+      "apex": 343,
+      "end": 423
+    },
+    {
+      "name": "T2",
+      "number": 2,
+      "start": 585,
+      "apex": 665,
+      "end": 745
+    },
+    {
+      "name": "T3",
+      "number": 3,
+      "start": 750,
+      "apex": 830,
+      "end": 910
+    },
+    {
+      "name": "T4",
+      "number": 4,
+      "start": 966,
+      "apex": 1046,
+      "end": 1126
+    },
+    {
+      "name": "T5",
+      "number": 5,
+      "start": 1159,
+      "apex": 1239,
+      "end": 1319
+    },
+    {
+      "name": "T6",
+      "number": 6,
+      "start": 1311,
+      "apex": 1391,
+      "end": 1471
+    },
+    {
+      "name": "T7",
+      "number": 7,
+      "start": 1608,
+      "apex": 1688,
+      "end": 1768
+    },
+    {
+      "name": "T8",
+      "number": 8,
+      "start": 1929,
+      "apex": 2009,
+      "end": 2089
+    },
+    {
+      "name": "T9",
+      "number": 9,
+      "start": 2151,
+      "apex": 2231,
+      "end": 2311
+    },
+    {
+      "name": "T10",
+      "number": 10,
+      "start": 2414,
+      "apex": 2494,
+      "end": 2574
+    },
+    {
+      "name": "T11",
+      "number": 11,
+      "start": 2981,
+      "apex": 3061,
+      "end": 3141
+    },
+    {
+      "name": "T12",
+      "number": 12,
+      "start": 3069,
+      "apex": 3149,
+      "end": 3229
+    },
+    {
+      "name": "T13",
+      "number": 13,
+      "start": 3372,
+      "apex": 3452,
+      "end": 3532
+    },
+    {
+      "name": "T14",
+      "number": 14,
+      "start": 3656,
+      "apex": 3736,
+      "end": 3816
+    }
+  ]
+}

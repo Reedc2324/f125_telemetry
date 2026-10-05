@@ -1,0 +1,111 @@
+{
+  "track": "bahrain_international_circuit",
+  "track_length": 5412,
+  "corners": [
+    {
+      "name": "T1",
+      "number": 1,
+      "start": 632,
+      "apex": 712,
+      "end": 792
+    },
+    {
+      "name": "T2",
+      "number": 2,
+      "start": 732,
+      "apex": 812,
+      "end": 892
+    },
+    {
+      "name": "T3",
+      "number": 3,
+      "start": 841,
+      "apex": 921,
+      "end": 1001
+    },
+    {
+      "name": "T4",
+      "number": 4,
+      "start": 1420,
+      "apex": 1500,
+      "end": 1580
+    },
+    {
+      "name": "T5",
+      "number": 5,
+      "start": 1688,
+      "apex": 1768,
+      "end": 1848
+    },
+    {
+      "name": "T6",
+      "number": 6,
+      "start": 1754,
+      "apex": 1834,
+      "end": 1914
+    },
+    {
+      "name": "T7",
+      "number": 7,
+      "start": 1887,
+      "apex": 1967,
+      "end": 2047
+    },
+    {
+      "name": "T8",
+      "number": 8,
+      "start": 2132,
+      "apex": 2212,
+      "end": 2292
+    },
+    {
+      "name": "T9",
+      "number": 9,
+      "start": 2495,
+      "apex": 2575,
+      "end": 2655
+    },
+    {
+      "name": "T10",
+      "number": 10,
+      "start": 2585,
+      "apex": 2665,
+      "end": 2745
+    },
+    {
+      "name": "T11",
+      "number": 11,
+      "start": 3372,
+      "apex": 3452,
+      "end": 3532
+    },
+    {
+      "name": "T12",
+      "number": 12,
+      "start": 3771,
+      "apex": 3851,
+      "end": 3931
+    },
+    {
+      "name": "T13",
+      "number": 13,
+      "start": 3981,
+      "apex": 4061,
+      "end": 4141
+    },
+    {
+      "name": "T14",
+      "number": 14,
+      "start": 4790,
+      "apex": 4870,
+      "end": 4950
+    },
+    {
+      "name": "T15",
+      "number": 15,
+      "start": 4873,
+      "apex": 4953,
+      "end": 5033
+    }
+  ]
+}

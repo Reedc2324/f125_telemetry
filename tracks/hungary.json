@@ -1,0 +1,120 @@
+{
+  "track": "hungaroring",
+  "track_length": 4381,
+  "corners": [
+    {
+      "name": "T1",
+      "number": 1,
+      "start": 546,
+      "apex": 626,
+      "end": 706
+    },
+    {
+      "name": "T1A",
+      "number": 1,
+      "letter": "A",
+      "start": 744,
+      "apex": 824,
+      "end": 904
+    },
+    {
+      "name": "T2",
+      "number": 2,
+      "start": 1052,
+      "apex": 1132,
+      "end": 1212
+    },
+    {
+      "name": "T3",
+      "number": 3,
+      "start": 1229,
+      "apex": 1309,
+      "end": 1389
+    },
+    {
+      "name": "T4",
+      "number": 4,
+      "start": 1714,
+      "apex": 1794,
+      "end": 1874
+    },
+    {
+      "name": "T5",
+      "number": 5,
+      "start": 1956,
+      "apex": 2036,
+      "end": 2116
+    },
+    {
+      "name": "T6",
+      "number": 6,
+      "start": 2287,
+      "apex": 2367,
+      "end": 2447
+    },
+    {
+      "name": "T7",
+      "number": 7,
+      "start": 2328,
+      "apex": 2408,
+      "end": 2488
+    },
+    {
+      "name": "T8",
+      "number": 8,
+      "start": 2501,
+      "apex": 2581,
+      "end": 2661
+    },
+    {
+      "name": "T9",
+      "number": 9,
+      "start": 2636,
+      "apex": 2716,
+      "end": 2796
+    },
+    {
+      "name": "T10",
+      "number": 10,
+      "start": 2832,
+      "apex": 2912,
+      "end": 2992
+    },
+    {
+      "name": "T11",
+      "number": 11,
+      "start": 3032,
+      "apex": 3112,
+      "end": 3192
+    },
+    {
+      "name": "T12",
+      "number": 12,
+      "start": 3419,
+      "apex": 3499,
+      "end": 3579
+    },
+    {
+      "name": "T12A",
+      "number": 12,
+      "letter": "A",
+      "start": 3558,
+      "apex": 3638,
+      "end": 3718
+    },
+    {
+      "name": "T13",
+      "number": 13,
+      "start": 3689,
+      "apex": 3769,
+      "end": 3849
+    },
+    {
+      "name": "T14",
+      "number": 14,
+      "start": 3982,
+      "apex": 4062,
+      "end": 4142
+    }
+  ]
+}

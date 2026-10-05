@@ -1,0 +1,146 @@
+{
+  "track": "baku_city_circuit",
+  "track_length": 6003,
+  "corners": [
+    {
+      "name": "T1",
+      "number": 1,
+      "start": 213,
+      "apex": 293,
+      "end": 373
+    },
+    {
+      "name": "T2",
+      "number": 2,
+      "start": 550,
+      "apex": 630,
+      "end": 710
+    },
+    {
+      "name": "T3",
+      "number": 3,
+      "start": 1407,
+      "apex": 1487,
+      "end": 1567
+    },
+    {
+      "name": "T4",
+      "number": 4,
+      "start": 1638,
+      "apex": 1718,
+      "end": 1798
+    },
+    {
+      "name": "T5",
+      "number": 5,
+      "start": 1974,
+      "apex": 2054,
+      "end": 2134
+    },
+    {
+      "name": "T6",
+      "number": 6,
+      "start": 2029,
+      "apex": 2109,
+      "end": 2189
+    },
+    {
+      "name": "T7",
+      "number": 7,
+      "start": 2418,
+      "apex": 2498,
+      "end": 2578
+    },
+    {
+      "name": "T8",
+      "number": 8,
+      "start": 2607,
+      "apex": 2687,
+      "end": 2767
+    },
+    {
+      "name": "T9",
+      "number": 9,
+      "start": 2640,
+      "apex": 2720,
+      "end": 2800
+    },
+    {
+      "name": "T10",
+      "number": 10,
+      "start": 2670,
+      "apex": 2750,
+      "end": 2830
+    },
+    {
+      "name": "T11",
+      "number": 11,
+      "start": 2716,
+      "apex": 2796,
+      "end": 2876
+    },
+    {
+      "name": "T12",
+      "number": 12,
+      "start": 2773,
+      "apex": 2853,
+      "end": 2933
+    },
+    {
+      "name": "T13",
+      "number": 13,
+      "start": 3165,
+      "apex": 3245,
+      "end": 3325
+    },
+    {
+      "name": "T14",
+      "number": 14,
+      "start": 3384,
+      "apex": 3464,
+      "end": 3544
+    },
+    {
+      "name": "T15",
+      "number": 15,
+      "start": 3617,
+      "apex": 3697,
+      "end": 3777
+    },
+    {
+      "name": "T16",
+      "number": 16,
+      "start": 3977,
+      "apex": 4057,
+      "end": 4137
+    },
+    {
+      "name": "T17",
+      "number": 17,
+      "start": 4160,
+      "apex": 4240,
+      "end": 4320
+    },
+    {
+      "name": "T18",
+      "number": 18,
+      "start": 4405,
+      "apex": 4485,
+      "end": 4565
+    },
+    {
+      "name": "T19",
+      "number": 19,
+      "start": 4556,
+      "apex": 4636,
+      "end": 4716
+    },
+    {
+      "name": "T20",
+      "number": 20,
+      "start": 4852,
+      "apex": 4932,
+      "end": 5012
+    }
+  ]
+}

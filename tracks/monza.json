@@ -1,0 +1,83 @@
+{
+  "track": "autodromo_nazionale_monza",
+  "track_length": 5793,
+  "corners": [
+    {
+      "name": "T1",
+      "number": 1,
+      "start": 797,
+      "apex": 877,
+      "end": 957
+    },
+    {
+      "name": "T2",
+      "number": 2,
+      "start": 856,
+      "apex": 936,
+      "end": 1016
+    },
+    {
+      "name": "T3",
+      "number": 3,
+      "start": 1380,
+      "apex": 1460,
+      "end": 1540
+    },
+    {
+      "name": "T4",
+      "number": 4,
+      "start": 2005,
+      "apex": 2085,
+      "end": 2165
+    },
+    {
+      "name": "T5",
+      "number": 5,
+      "start": 2064,
+      "apex": 2144,
+      "end": 2224
+    },
+    {
+      "name": "T6",
+      "number": 6,
+      "start": 2420,
+      "apex": 2500,
+      "end": 2580
+    },
+    {
+      "name": "T7",
+      "number": 7,
+      "start": 2733,
+      "apex": 2813,
+      "end": 2893
+    },
+    {
+      "name": "T8",
+      "number": 8,
+      "start": 3793,
+      "apex": 3873,
+      "end": 3953
+    },
+    {
+      "name": "T9",
+      "number": 9,
+      "start": 3896,
+      "apex": 3976,
+      "end": 4056
+    },
+    {
+      "name": "T10",
+      "number": 10,
+      "start": 3998,
+      "apex": 4078,
+      "end": 4158
+    },
+    {
+      "name": "T11",
+      "number": 11,
+      "start": 5078,
+      "apex": 5158,
+      "end": 5238
+    }
+  ]
+}
