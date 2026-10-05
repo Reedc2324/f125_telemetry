@@ -25,7 +25,9 @@ telemetry_rows = []
 last_lap = 1
 
 best_lap_dir = 'best_lap/'
+last_lap_dir = 'last_lap/'
 
+last_lap_file = None
 best_lap_file = None
 
 
@@ -35,6 +37,11 @@ while True:
         best_lap_file = None
     else:
         best_lap_file = glob.glob(f'{best_lap_dir}*')[0]
+
+    if not os.listdir(last_lap_file):
+        last_lap_file = None
+    else:
+        last_lap_file = glob.glob(f'{last_lap_file}*')[0]
 
     data, addr = sock.recvfrom(2048)
 
@@ -100,7 +107,8 @@ while True:
                         df.to_csv(f'{best_lap_dir}/lap_{current_data['lap'] - 1}_data')
                         telemetry_rows = []
                     else:
-                        df.to_csv(f'lap_data/lap_{current_data['lap'] - 1}_data')
+                        shutil.move(last_lap_file, "last_lap/")
+                        df.to_csv(f'last_lap/lap_{current_data['lap'] - 1}_data')
                     
                     
         
