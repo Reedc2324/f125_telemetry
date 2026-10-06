@@ -7,9 +7,13 @@ import os
 import glob
 import json
 from track_ids import TRACKS
+import toml
 # Setup where the packets are received from
-UDP_IP = "127.0.0.1"
-UDP_PORT = 20777
+config = toml.load('./settings/config.toml')
+
+UDP_IP = config['server']['ip']
+UDP_PORT = config['server']['port']
+print(str(UDP_IP+f":{UDP_PORT}"))
 HEADER_SIZE = 29
 
 # Init socket

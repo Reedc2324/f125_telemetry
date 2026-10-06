@@ -9,6 +9,8 @@ import sys
 import threading
 import psutil
 from track_ids import TRACKS
+import toml
+from tkinter import messagebox
 
 class F1LapTelemetryDashboard:
     def __init__(self, root):
@@ -52,11 +54,14 @@ class F1LapTelemetryDashboard:
 
         tel_text = tk.Label(banner_frame, text="Telemetry Inactive", fg="white", bg='red')
         ready_dir = Path(__file__).resolve().parent / "ready" / "ready.txt"
-        tel_text.pack(expand=True)
+        tel_text.pack(side=tk.LEFT, padx=10)
 
         global track_text 
         track_text = ttk.Label(self.root, text="Track: ", style="TrackText.TLabel", padding=1)
         track_text.pack(expand=True)
+
+        settings_opt = tk.Button(banner_frame, text="⚙ Settings", command=open_settings, font=("Arial", 11))
+        settings_opt.pack(side=tk.RIGHT, padx=10)
 
         def check_telemetry():
             if ready_dir.exists() and is_game_running('f1_25.exe'):
@@ -205,10 +210,84 @@ class F1LapTelemetryDashboard:
         # Re-schedule this method execution without causing interface blocking loops
         self.root.after(500, self.check_for_new_laps)
 
-    def create_settings_window():
-        settings_window = tk.Toplevel(root)
-        settings_window.title("Settings")
-        settings_window.geometry("300x200")
+def open_settings():
+    # 1. Create the pop-up window
+    settings_win = tk.Toplevel(root)
+    settings_win.title("Network Settings")
+    settings_win.geometry("280x220")
+    
+    # Prevents the user from clicking the main window until this is closed
+    settings_win.grab_set() 
+    
+    # 2. Add Title Widget
+    label = tk.Label(settings_win, text="Connection Settings", font=("Arial", 12, "bold"))
+    label.pack(pady=10)
+    
+    # 3. IP Input Layout
+    tk.Label(settings_win, text="Server IP Address:", font=("Arial", 9)).pack(pady=(5, 2))
+    ip_entry = tk.Entry(settings_win, width=25)
+    ip_entry.pack()
+
+    # 4. Port Input Layout
+    tk.Label(settings_win, text="Server Port:", font=("Arial", 9)).pack(pady=(5, 2))
+    port_entry = tk.Entry(settings_win, width=25)
+    port_entry.pack()
+
+    # 5. Load current settings into the entry fields right away
+    try:
+        config = toml.load("./settings/config.toml")
+        current_ip = config.get("server", {}).get("ip", "127.0.0.1")
+        current_port = config.get("server", {}).get("port", 8080)
+        
+        ip_entry.insert(0, str(current_ip))
+        port_entry.insert(0, str(current_port))
+    except FileNotFoundError:
+        # Fallbacks if config.toml doesn't exist yet
+        ip_entry.insert(0, "127.0.0.1")
+        port_entry.insert(0, "8080")
+
+    # 6. Save Function tied specifically to this window
+    def save_and_close():
+        new_ip = ip_entry.get().strip()          # string
+        new_port_raw = int(port_entry.get().strip()) # int
+        
+        # Validation
+        if not new_ip or not new_port_raw:
+            messagebox.showwarning("Warning", "Both IP and Port fields are required!", parent=settings_win)
+            return
+            
+        try:
+            new_port = int(new_port_raw)
+        except ValueError:
+            messagebox.showerror("Error", "Port must be a whole number!", parent=settings_win)
+            return
+
+        try:
+            # Load existing layout or create empty dict
+            try:
+                config = toml.load("./settings/config.toml")
+            except FileNotFoundError:
+                config = {}
+
+            if "server" not in config:
+                config["server"] = {}
+                
+            config["server"]["ip"] = new_ip
+            config["server"]["port"] = new_port
+
+            # Write to TOML file
+            with open("./settings/config.toml", "w") as f:
+                toml.dump(config, f)
+                
+            # Close the pop-up window only after a successful save
+            settings_win.destroy()
+            
+        except Exception as e:
+            messagebox.showerror("Error", f"Failed to save settings: {e}", parent=settings_win)
+
+    # 7. Action Button
+    close_btn = tk.Button(settings_win, text="Save & Close", command=save_and_close, bg="#4CAF50", fg="white")
+    close_btn.pack(pady=20)
 
 
 def run_reciever():
