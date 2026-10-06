@@ -31,6 +31,7 @@ best_lap_dir = 'best_lap/'
 last_lap_dir = 'last_lap/'
 
 current_uid = None
+current_track = None
 
 
 os.makedirs(best_lap_dir, exist_ok=True)
@@ -46,6 +47,16 @@ def move_best(name):
         shutil.move(best_file[0], track_dir)
     else:
         print("Failed to move file")
+
+def get_best(name):
+    best_dir = Path('./best_lap')
+    best_track_dir = Path(f'./track_laps/{name}')
+    best_track_file = list(best_track_dir.glob("*.csv"))
+
+    if best_track_file:
+        shutil.move(best_track_file[0], best_dir)
+    else:
+        print("Failed to get file")
 
 while True:
     best_lap_files = glob.glob(os.path.join(best_lap_dir, '*'))
@@ -150,13 +161,17 @@ while True:
             print(f'{track_path} was not found')
 
         session_uid = struct.unpack_from('<Q', data, 7)[0]
-        current_track = TRACKS[current_data['track_id']]['name']
+        last_track = TRACKS[current_data['track_id']]['name']
 
         if current_uid == None:
             current_uid = session_uid
         elif current_uid != session_uid:
             print("NEW SESSION")
-            move_best(current_track)
+            move_best(last_track)
             current_uid = session_uid
-            
 
+        if current_track == None:
+            current_track = last_track
+        elif(current_track != last_track):
+            get_best(current_track)
+            current_track = last_track

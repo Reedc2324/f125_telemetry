@@ -8,6 +8,7 @@ from pathlib import Path
 import sys
 import threading
 import psutil
+from track_ids import TRACKS
 
 class F1LapTelemetryDashboard:
     def __init__(self, root):
@@ -32,6 +33,7 @@ class F1LapTelemetryDashboard:
         style.configure("MetricName.TLabel", font=("Arial", 10, "bold"), foreground="#e1e1e6")
         style.configure("Data.TLabel", font=("Consolas", 14, "bold"), foreground="#00e676")
         style.configure("BestData.TLabel", font=("Consolas", 14, "bold"), foreground="#00d2ff")
+        style.configure("TrackName.TLabel", font=("Consolas", 50, "bold"), foreground='white')
 
         self.build_ui()
         
@@ -48,18 +50,22 @@ class F1LapTelemetryDashboard:
         banner_frame.pack_propagate(False)
         banner_frame.pack(fill=tk.X, side=tk.TOP)
 
-        banner_text = tk.Label(banner_frame, text="Telemetry Inactive", fg="white", bg='red')
+        tel_text = tk.Label(banner_frame, text="Telemetry Inactive", fg="white", bg='red')
         ready_dir = Path(__file__).resolve().parent / "ready" / "ready.txt"
-        banner_text.pack(expand=True)
+        tel_text.pack(expand=True)
+
+        global track_text 
+        track_text = ttk.Label(self.root, text="Track: ", style="TrackText.TLabel", padding=1)
+        track_text.pack(expand=True)
 
         def check_telemetry():
             if ready_dir.exists() and is_game_running('f1_25.exe'):
-                banner_text.config(
+                tel_text.config(
                     text="Telemetry Active",
                     bg="green"
                 )
             else:
-                banner_text.config(
+                tel_text.config(
                     text="Telemetry Inactive",
                     bg="red"
                 )
@@ -153,11 +159,19 @@ class F1LapTelemetryDashboard:
             max_brake = df['brake'].max() if 'brake' in df.columns else 0.0
             brake_pct = int(max_brake * 100) if max_brake <= 1.0 else int(max_brake)
 
+            track_id = int(df['track_id'].dropna().iloc[-1]) if 'track_id' in df.columns else "Unknown"
+            track_name = TRACKS[track_id]['name']
+
+            track_text.config(
+                text=track_name
+            )
+
             return {
                 "lap": lap_number,
                 "time": self.format_lap_time(final_time),
                 "speed": f"{int(max_speed)} km/h",
-                "brake": f"{brake_pct}%"
+                "brake": f"{brake_pct}%",
+                "track_name": track_name
             }
         except Exception as e:
             return None
