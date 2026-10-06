@@ -3,6 +3,11 @@ from tkinter import ttk
 import pandas as pd
 import glob
 import os
+import subprocess
+from pathlib import Path
+import sys
+import threading
+import psutil
 
 class F1LapTelemetryDashboard:
     def __init__(self, root):
@@ -37,6 +42,30 @@ class F1LapTelemetryDashboard:
         # Window Header
         lbl_header = ttk.Label(self.root, text="F1 TELEMETRY SESSION TRACKER", style="Header.TLabel", padding=10)
         lbl_header.pack()
+
+        #Banner
+        banner_frame = tk.Frame(root, bg='grey', height=40)
+        banner_frame.pack_propagate(False)
+        banner_frame.pack(fill=tk.X, side=tk.TOP)
+
+        banner_text = tk.Label(banner_frame, text="Telemetry Inactive", fg="white", bg='red')
+        ready_dir = Path(__file__).resolve().parent / "ready" / "ready.txt"
+        banner_text.pack(expand=True)
+
+        def check_telemetry():
+            if ready_dir.exists() and is_game_running('f1_25.exe'):
+                banner_text.config(
+                    text="Telemetry Active",
+                    bg="green"
+                )
+            else:
+                banner_text.config(
+                    text="Telemetry Inactive",
+                    bg="red"
+                )
+
+            root.after(1000, check_telemetry)
+        check_telemetry()
 
         # Main horizontal split layout container
         main_frame = tk.Frame(self.root, bg="#121214")
@@ -162,8 +191,52 @@ class F1LapTelemetryDashboard:
         # Re-schedule this method execution without causing interface blocking loops
         self.root.after(500, self.check_for_new_laps)
 
+    def create_settings_window():
+        settings_window = tk.Toplevel(root)
+        settings_window.title("Settings")
+        settings_window.geometry("300x200")
+
+
+def run_reciever():
+    global receiver_process
+    # Use Popen instead of run() so it doesn't freeze the system thread
+    receiver_process = subprocess.Popen([sys.executable, 'reciever.py'])
+
+def onClose():
+    print("Closing dashboard and stopping receiver...")
+    
+    # 1. Forcefully kill reciever.py if it is running
+    global receiver_process
+    if receiver_process and receiver_process.poll() is None: # checks if still running
+        receiver_process.terminate()
+        os.remove(Path(__file__).resolve().parent / "ready" / "ready.txt") # Sends termination signal
+        # Optional: receiver_process.kill() # Use if terminate() isn't strong enough
+    
+
+        
+    # 2. Safely destroy the GUI window
+    root.destroy()
+
+
+def is_game_running(game):
+    for process in psutil.process_iter(['name']):
+        try:
+            # Check if the process name matches (case-insensitive)
+            if process.info['name'] and game.lower() in process.info['name'].lower():
+                return True
+        except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
+            # Skip processes that closed or are protected by the OS
+            continue
+            
+    return False
+
+
+           
 if __name__ == "__main__":
     root = tk.Tk()
+
+    reciever_thread = threading.Thread(target=run_reciever, daemon=True)
+    reciever_thread.start()
     
     # Simple check to make sure directory structures exist locally to prevent initial crash errors
     for folder in ['best_lap', 'last_lap']:
@@ -171,4 +244,7 @@ if __name__ == "__main__":
             os.makedirs(folder)
             
     app = F1LapTelemetryDashboard(root)
+    root.protocol("WM_DELETE_WINDOW", onClose)
     root.mainloop()
+
+
